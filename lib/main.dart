@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:unittesting/Counter/counter_view.dart';
+import 'package:unittesting/User/user_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home:CounterScreen()
+      home:UserScreen()
     );
   }
 }
